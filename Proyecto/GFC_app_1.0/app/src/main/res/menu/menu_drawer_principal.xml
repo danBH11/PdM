@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/perfil"
+            android:icon="@drawable/baseline_person_24"
+            android:title="@string/perfil"/>
+        <item
+            android:id="@+id/transferencias"
+            android:icon="@drawable/baseline_attach_money_24"
+            android:title="@string/transferencia"/>
+        <!--
+        <item
+            android:id="@+id/oper_sin_tarj"
+            android:icon="@drawable/baseline_credit_card_off_24"
+            android:title="@string/opSinTar"/>
+            -->
+        <item
+            android:id="@+id/operDigi"
+            android:icon="@drawable/baseline_qr_code_2_24"
+            android:title="@string/operDigit"/>
+        <item
+            android:id="@+id/recargaPhone"
+            android:icon="@drawable/baseline_phone_android_24"
+            android:title="@string/recargaPhone"/>
+        <!--
+        <item
+            android:id="@+id/discount"
+            android:icon="@drawable/baseline_discount_24"
+            android:title="@string/discount"/>
+            -->
+        <!--
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="@string/settings"/>
+            -->
+        <item
+            android:id="@+id/contacto"
+            android:icon="@drawable/baseline_headset_mic_24"
+            android:title="@string/contacto" />
+
+        <item
+            android:id="@+id/cerrar_sesion"
+            android:icon="@drawable/baseline_exit_to_app_24"
+            android:title="@string/cerrarSesion"/>
+    </group>
+
+</menu>
